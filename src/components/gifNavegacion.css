@@ -1,0 +1,6 @@
+.gif__cont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}

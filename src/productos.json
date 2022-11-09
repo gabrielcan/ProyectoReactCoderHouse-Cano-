@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Kit Daewoo Amoladora Angular 750w + Taladro Percutor 550w",
+    "price": 115000,
+    "stock": 2,
+    "categ": "herramientas",
+    "pictureUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/127/623/products/51-9c829182bc7517ca5a15905349561796-640-0.jpg",
+    "description": " Lo que tenés que saber de este producto Apta para un disco de 115 mm de diámetro. Alcanza una profundidad de corte de 115 mm.Trae interruptor tecla. Su potencia es de 750 W.",
+    "activo": true
+  },
+
+  {
+    "id": 2,
+    "title": "Auriculares Inalambricos",
+    "price": 90000,
+    "stock": 2,
+    "categ": "tecnologia",
+    "pictureUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_864305-MLA40807371903_022020-F.webp",
+    "description": "Auricular. Bluetooth. El formato perfecto para vos: al serin-ear, aislan el ruido del exterior, mejoran la calidad del audio y son de tamano pequeno para poder insertarse en tu oreja.Son ideales para acompanarte a la hora de hacer ejercicio mientras te sumergis en el mejor sonido envolvente. Base descarga: 800 mAh.",
+    "activo": true
+  },
+
+  {
+    "id": 3,
+    "title": "Libro De Comerciante A Empresario",
+    "price": 11000,
+    "stock": 2,
+    "categ": "Libreria",
+    "pictureUrl": "https://http2.mlstatic.com/D_NQ_NP_723265-MLA47020770797_082021-O.jpg",
+    "description": "En este libro el autor te enseña el camino y te da muchos consejos necesarios para producir el cambio que siempre soñaste. Esta novedosa metodología te enseñará a evolucionar cada paso y a conocer el proceso paso a paso, así podrás moverte de forma ascendente en el mundo de los negocios.",
+    "activo": true
+  },
+
+  {
+    "id": 4,
+    "title": "Zanella Hot 90 Shot Tucumán",
+    "price": 10000001,
+    "stock": 2,
+    "categ": "motos",
+    "pictureUrl": "https://http2.mlstatic.com/D_NQ_NP_762152-MLA44174900925_112020-O.jpg",
+    "description": "MOTOZUNI S.A. NO COBRA FORMULARIOS.Jueves 8 y Viernes 9 de Septiembre DESCUENTO sobre el precio publicado. Consultar promoción.Créditos SOLO con DNI. Sin demoras, entrega en el acto. Primera cuota del crédito DNI en el mes de OCTUBRE. TE LLEVAMOS LA MOTO EN EL DÍA",
+    "activo": true
+  },
+
+  {
+    "id": 5,
+    "title": "Smart Tv Tcl L40s66e 40 Full Hd Android Tv",
+    "price": 80000,
+    "stock": 4,
+    "categ": "tecnologia",
+    "pictureUrl": "http://tcl.com.ar/wp-content/uploads/presentacion/62e2ac9942b0c_imgTop.png",
+    "description": "Este modelo en concreto, el de 58 pulgadas, solemos verlo por un precio de casi 1.000 euros, por lo que ahora, con la oferta de El Corte Inglés, podemos llevárnoslo con un precio reducido del 37%, lo que sería un descuento de 360 euros que lo deja a tan solo 599 euros. Un precio muy interesante si estamos buscando un televisor potente, con buena angular de pantalla y un buen precio.",
+    "activo": true
+  }
+]

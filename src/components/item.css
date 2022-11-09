@@ -1,0 +1,86 @@
+
+
+.card__cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 0 2px 0;
+
+}
+.card__linkItem{
+    text-decoration: none !important;
+    color: black;
+    display: flex;
+    width: 30%;
+}
+.card:hover{
+    border: 1px solid #80cbc436 ;
+    background-color: #80cbc436;
+    color: black;
+
+
+}
+.card__img{
+    width: 20%;
+}
+.card__cuerpo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    flex-direction: column;
+}
+.card__texto{
+    align-items: center;
+    text-align: justify;
+   
+    display: flex;
+    flex-direction: row;
+}
+.card__title{
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.card__precio{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 20%;
+    flex-direction: column;
+}
+.card__button{
+    width: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 580px){
+    
+    .card__cont{
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 0.5rem;
+    }
+    .card__img{
+        width: 100%;
+    }
+.card__cuerpo{
+    width: 100%;
+}
+.card__precio{
+    width: 100%;
+}
+.card__button{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+    
+}

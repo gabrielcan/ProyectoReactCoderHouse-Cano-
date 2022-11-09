@@ -1,0 +1,25 @@
+.contador__Cont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.contador__Valor{
+    text-align: center;
+    font-size: 35px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.contador__Button{
+    width: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contador__AddCarrito{
+    margin: 5px;
+}

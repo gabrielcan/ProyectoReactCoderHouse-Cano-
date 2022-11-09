@@ -1,0 +1,17 @@
+.IconCarrito{
+    width: 100%;
+}
+.ContIconCarrito{
+    width: 4%;
+}
+
+@media screen and (max-width: 580px){
+    .ContIconCarrito{
+        width: 8%;
+    }   
+}
+
+.nav__Logo{
+    font-size: 25px;
+    margin-right: 2rem;
+}
