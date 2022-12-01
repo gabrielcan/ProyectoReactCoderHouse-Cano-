@@ -1,39 +1,38 @@
+//la linea de abajo sirve para verificar errores en el codigo
+// @ts-check 
 
 import ItemList from './ItemList'
-import { Route } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import React,{useState,useEffect} from 'react';
-import ProductosJson from '../productos.json'
+import {getFirestore, collection, getDocs, query, where} from 'firebase/firestore'
 
-
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
 
   const { idcateg } = useParams(); //tomamos el parametro de la ruta para compararlo con el array de prod
  
   const [productos, setProductos] = useState([]);
-  useEffect(() => {
-    
-    const productosPromise = new Promise((res, rej) => {
-      setTimeout(() => {
-        res(ProductosJson);
-      }, 2000);
-    });
 
-    productosPromise.then((res) => {
-      if (idcateg) {
-        setProductos(res.filter((item) => item.categ == idcateg));
-      } else {
-        setProductos(res);
-      }
-    });
-  }, [idcateg]);
+  useEffect(() => {
+    const db = getFirestore();
+    let productos;
+    if (idcateg) {
+      productos = query(collection(db, 'Productos'), where('categ', '==', idcateg));
+    } else {
+      productos = collection(db, 'Productos');
+    }
+
+    getDocs(productos).then((res) => {
+     
+
+      const arrayNorm = res.docs.map((element) => ({ id: element.id, ...element.data() }))
+      setProductos(arrayNorm);
+      });
+
+    }, [idcateg]);
    
   return (
     <>
-
-{/* <ItemCount stock={5} initial={1}/> */}
 <ItemList productos={productos}/> 
-
     </>
         )
 

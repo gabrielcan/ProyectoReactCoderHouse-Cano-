@@ -1,0 +1,13 @@
+.iconCarr__burbuja{
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    border-radius: 100% 100% 100% 100%;
+    border: 1px solid red;
+    background: red;
+    text-decoration: none;
+    color: white;
+}
+.iconCarr__cont{
+    position: relative;
+}

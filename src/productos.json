@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "Kit Daewoo Amoladora Angular 750w + Taladro Percutor 550w",
     "price": 115000,
     "stock": 2,
@@ -11,7 +11,7 @@
   },
 
   {
-    "id": 2,
+    "id": "2",
     "title": "Auriculares Inalambricos",
     "price": 90000,
     "stock": 2,
@@ -22,7 +22,7 @@
   },
 
   {
-    "id": 3,
+    "id": "3",
     "title": "Libro De Comerciante A Empresario",
     "price": 11000,
     "stock": 2,
@@ -33,7 +33,7 @@
   },
 
   {
-    "id": 4,
+    "id": "4",
     "title": "Zanella Hot 90 Shot Tucumán",
     "price": 10000001,
     "stock": 2,
@@ -44,7 +44,7 @@
   },
 
   {
-    "id": 5,
+    "id": "5",
     "title": "Smart Tv Tcl L40s66e 40 Full Hd Android Tv",
     "price": 80000,
     "stock": 4,

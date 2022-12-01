@@ -18,8 +18,8 @@ const NavBar = () => {
           <Nav className='me-auto'>
              
             <Link className='nav-link' to={'/'}>Inicio</Link>
-             <Link className='nav-link' to={'/contacto'}>Contacto</Link>
-             <Link className='nav-link' to={'/gif'}>Gif de Navegacion</Link>
+             <Link className='nav-link' to={'/cart'}>Carrito</Link>
+           <Link className='nav-link' to={'/checkout'}>checkout</Link>
             <NavDropdown title='Categorias Productos' id='basic-nav-dropdown'>
               <NavDropdown.Item href='/category/herramientas'>herramientas</NavDropdown.Item>
               <NavDropdown.Item href='/category/tecnologia'>

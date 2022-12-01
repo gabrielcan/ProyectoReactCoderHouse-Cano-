@@ -6,10 +6,14 @@ const ItemList = ({productos}) => {
 
 
   return (
-    <>
-<Item productos={productos}/>
 
-  </>
+    <div key={productos.id}>
+      {!productos.length && 'Loading...'}
+      {productos.map((item) => (
+        <Item producto={item} />
+      ))}
+    </div>
+
   )
 }
 

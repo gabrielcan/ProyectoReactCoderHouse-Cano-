@@ -13,9 +13,9 @@
     text-decoration: none !important;
     color: black;
     display: flex;
-    width: 30%;
+    width: 50%;
 }
-.card:hover{
+.card__cont:hover{
     border: 1px solid #80cbc436 ;
     background-color: #80cbc436;
     color: black;
@@ -72,15 +72,20 @@
     .card__img{
         width: 100%;
     }
+
+    .card__title{
+        font-size: 20px;
+        justify-content: center;
+        
+    }
 .card__cuerpo{
     width: 100%;
 }
 .card__precio{
     width: 100%;
 }
-.card__button{
-    width: 80%;
-    margin-bottom: 2rem;
+.card__linkItem{
+    width: 100%;    
 }
     
 }

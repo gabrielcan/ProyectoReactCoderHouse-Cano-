@@ -1,0 +1,33 @@
+.itemDetail__cont{
+ 
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.itemDetail__img{
+    width: 40%;
+}
+
+
+.itemDetail__inforView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.itemDetail__items{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 580px){
+    .itemDetail__inforView{
+        
+        flex-direction: column;
+    
+    }
+  .itemDetail__img{
+    width: 100%;
+  }
+}
