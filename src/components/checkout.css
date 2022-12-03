@@ -1,0 +1,22 @@
+.checkout__cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.checkout__msj{
+    text-align: center;
+}
+
+
+.checkout__cont_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.checkout__input{
+    margin: 0.5rem;
+}

@@ -6,7 +6,7 @@ import {BrowserRouter, Routes,Route} from 'react-router-dom';
 import Checkout from './components/Checkout';
 import Contacto from './components/Contacto'
 import ItemDetailContainer from './components/ItemDetailContainer';
-import ContextContainer from './components/ContextContainer';
+import CartContext from './components/CartContext';
 import Cart from './components/Cart';
 
 
@@ -16,7 +16,7 @@ function App() {
 
   
 return (
-    <ContextContainer>
+    <CartContext>
 <BrowserRouter>
 
  <NavBar/>
@@ -31,7 +31,7 @@ return (
  </Routes>
 
 </BrowserRouter>
-</ContextContainer>
+</CartContext>
  
   );
 }

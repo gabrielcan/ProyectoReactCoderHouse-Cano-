@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import ItemCount from './ItemCount'
 import './itemDetail.css'
 import React, { useContext, useEffect, useState } from 'react';
-import {contextoGeneral} from './ContextContainer' 
+import {contextoGeneral} from './CartContext' 
+import { RotatingTriangles } from 'react-loader-spinner'
 
 
 
@@ -32,7 +33,19 @@ return (
       </ListGroup>
      
     </Card>
-        ):(<> Loading...</>)
+        ):(
+          <div className='itemDetail__loading'>
+
+          <RotatingTriangles
+            visible={true}
+            height="80"
+            width="80"
+            ariaLabel="rotating-triangels-loading"
+            wrapperStyle={{}}
+            wrapperClass="rotating-triangels-wrapper"
+            colors={['#8c9a88', '#d1e2de', '#414649']}
+            />
+          </div>)
       }
   
       </>

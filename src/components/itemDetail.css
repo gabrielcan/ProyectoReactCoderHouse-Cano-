@@ -21,6 +21,12 @@
     font-size: 2rem;
 }
 
+.itemDetail__loading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 @media screen and (max-width: 580px){
     .itemDetail__inforView{
         

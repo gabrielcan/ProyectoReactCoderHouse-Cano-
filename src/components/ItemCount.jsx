@@ -1,7 +1,7 @@
 import { Button } from 'react-bootstrap';
 import React, { useState, useContext } from 'react';
 import './contador.css'
-import {contextoGeneral} from './ContextContainer' //importo el contexto 
+import {contextoGeneral} from './CartContext' //importo el contexto 
 import { Link } from 'react-router-dom';
 
 export default function ItemCount({producto}) {

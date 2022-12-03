@@ -1,0 +1,31 @@
+.cartTable__cont{
+    margin-top: 1rem;
+    width: 90%;
+}
+.cart__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cart__link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.cart__buttonCont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+.cart__button{
+    margin-right: 0.5rem;
+}
+
+.cart__buttonFalse{
+    display: none;
+}
+

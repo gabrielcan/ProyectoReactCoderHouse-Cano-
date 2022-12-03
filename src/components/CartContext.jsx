@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export const contextoGeneral = createContext();
 
-export default function ContextContainer({ children }) {
+export default function CartContext({ children }) {
 
   const [carrito, setCarrito] = useState([]);
   const [totalPagar,setTotalPagar]= useState([])
